@@ -291,6 +291,6 @@ public class Instagram4j implements Serializable {
     
     @SneakyThrows
     private void randomWait() {
-        Thread.sleep(MyNumberUtils.randomLongBetween(100, 250));
+        Thread.sleep(MyNumberUtils.randomLongBetween(10, 50));
     }
 }
